@@ -1,0 +1,57 @@
+body {
+    height: 100%;
+    width: auto;
+}
+
+.head1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    display: grid;
+    grid: repeat (3, 1 fr, 1fr 1fr);
+    gap: 50px;
+    justify-content: center;
+    
+    border-style:inset;
+    border-color: rgb(0, 0, 0);
+    border-width: 12px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.pres {
+    display: grid;
+    grid: (2, 1 fr, 1fr);
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.prestext {
+    justify-content: center;
+    grid-column: 1;
+}
+
+.presimg {
+    grid-column: 2;
+    width: 800px;
+    height: 1000px;
+    border-style: hidden;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+    border-radius: 10%;
+}
+
+@media (max-width:500px) {
+    .pres {
+        grid: (2, 1fr);
+      margin-left: 100px;
+      margin-right: 50px;
+    }
+
+    .presimg {
+        width: 200px;
+        height: 250px;
+        grid-column: 1;
+    }
+}

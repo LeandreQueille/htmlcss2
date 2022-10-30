@@ -1,0 +1,34 @@
+.cp {
+    width: 445px;
+    border-style:inset;
+    border-color: black;
+    border-width: 5px;
+
+    height: 10%;
+    margin: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cd1 {
+    width: auto;
+    height: 450px;
+}
+
+.cd1-hover :hover{
+    background: url('http://dummyimage.com/100x100/000/fff');
+}
+
+.flexbox {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    
+}
+
+.codeimg1 {
+    width: 50%;
+    padding: 10px;
+    margin-left: 300px;
+}

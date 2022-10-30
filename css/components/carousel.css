@@ -1,0 +1,15 @@
+.carousel-inner {
+    padding-top: 10px;
+    padding-left: 500px;
+    padding-right: 500px;
+    z-index: 1;
+}
+
+.troisd {
+    height: 30px;
+    width: 30px;
+}
+
+.carousel-control-prev {
+    z-index: 1 !important;
+}
